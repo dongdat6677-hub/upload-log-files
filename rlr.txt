@@ -1,0 +1,233 @@
+for f in app/build.gradle.kts build.gradle.kts gradle/libs.versions.toml; do
+h>   echo
+>   echo "========== $f =========="
+>   gh api "repos/dongdat6677-hub/mpvRx/contents/$f?ref=f65c5f94efc675881cd7e5ac57f9f64248938aed" --jq '.content' |
+on|api\>   base64 -d |
+ompil>   grep -in -C 3 -E 'mpv|aar|implementation|api\(|runtimeOnly|compileOnly|maven|repository|flatDir|libs\.'
+> done
+
+========== app/build.gradle.kts ==========
+22-    ClassRemapper(nextClassVisitor, object : Remapper(Opcodes.ASM9) {
+23-      override fun map(internalName: String): String =
+24-        if (internalName == "java/rmi/UnmarshalException") {
+25:          "app/gyrolet/mpvrx/data/network/client/SmbRpcDecodeException"
+26-        } else internalName
+27-    })
+28-}
+--
+60-    (getCommitCount().toIntOrNull() ?: 1).coerceIn(1, versionCodeBandSize - 2)
+61-
+62-plugins {
+63:  alias(libs.plugins.android.application)
+64:  alias(libs.plugins.kotlin.compose.compiler)
+65:  alias(libs.plugins.kotlinx.serialization)
+66:  alias(libs.plugins.ksp)
+67:  alias(libs.plugins.room)
+68:  alias(libs.plugins.ktlint)
+69-}
+70-
+71-androidComponents {
+--
+78-}
+79-
+80-android {
+81:  namespace = "app.gyrolet.mpvrx"
+82-  compileSdk = 37
+83-  ndkVersion = "27.3.13750724"
+84-
+85-  defaultConfig {
+86:    applicationId = "app.gyrolet.mpvrx"
+87-    minSdk = 35
+88-    targetSdk = 36
+89-    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+--
+122-      buildConfigField("boolean", "ENABLE_UPDATE_FEATURE", "true")
+123-      buildConfigField("String", "UPDATE_APK_VARIANT", "\"standard\"")
+124-      buildConfigField("boolean", "SCOPED_STORAGE_ONLY", "false")
+125:      buildConfigField("boolean", "MPV_SUPPORTS_VULKAN", "true")
+126:      buildConfigField("boolean", "MPV_SUPPORTS_MEDIACODEC_VULKAN", "false")
+127:      // FongMi's mpv ships the GPU motion interpolation core.
+128:      buildConfigField("boolean", "MPV_SUPPORTS_MOTION_INTERPOLATION", "false")
+129-    }
+130-
+131-    create("playstore") {
+--
+134-      buildConfigField("boolean", "ENABLE_UPDATE_FEATURE", "false")
+135-      buildConfigField("String", "UPDATE_APK_VARIANT", "\"standard\"")
+136-      buildConfigField("boolean", "SCOPED_STORAGE_ONLY", "true")
+137:      buildConfigField("boolean", "MPV_SUPPORTS_VULKAN", "true")
+138:      buildConfigField("boolean", "MPV_SUPPORTS_MEDIACODEC_VULKAN", "false")
+139:      // FongMi's mpv ships the GPU motion interpolation core.
+140:      buildConfigField("boolean", "MPV_SUPPORTS_MOTION_INTERPOLATION", "false")
+141-    }
+142-
+143-    create("noVulkan") {
+--
+146-      buildConfigField("boolean", "ENABLE_UPDATE_FEATURE", "true")
+147-      buildConfigField("String", "UPDATE_APK_VARIANT", "\"no-vulkan\"")
+148-      buildConfigField("boolean", "SCOPED_STORAGE_ONLY", "false")
+149:      buildConfigField("boolean", "MPV_SUPPORTS_VULKAN", "false")
+150:      buildConfigField("boolean", "MPV_SUPPORTS_MEDIACODEC_VULKAN", "false")
+151:      // FongMi's mpv ships the GPU motion interpolation core.
+152:      buildConfigField("boolean", "MPV_SUPPORTS_MOTION_INTERPOLATION", "false")
+153-    }
+154-
+155-    create("fongmi") {
+--
+158-      buildConfigField("boolean", "ENABLE_UPDATE_FEATURE", "true")
+159-      buildConfigField("String", "UPDATE_APK_VARIANT", "\"fongmi\"")
+160-      buildConfigField("boolean", "SCOPED_STORAGE_ONLY", "false")
+161:      buildConfigField("boolean", "MPV_SUPPORTS_VULKAN", "true")
+162:      buildConfigField("boolean", "MPV_SUPPORTS_MEDIACODEC_VULKAN", "true")
+163:      // FongMi's mpv ships the GPU motion interpolation core.
+164:      buildConfigField("boolean", "MPV_SUPPORTS_MOTION_INTERPOLATION", "true")
+165-    }
+166-
+167-    configureEach {
+--
+171-      if (enableYtdlp) proguardFile("src/sideload/proguard-rules.pro")
+172-      externalNativeBuild {
+173-        cmake {
+174:          arguments += "-DMPVRX_ENABLE_YTDLP=${if (enableYtdlp) "ON" else "OFF"}"
+175-        }
+176-      }
+177-    }
+--
+184-        kotlin.directories.add("src/sideload/java")
+185-        manifest.srcFile("src/sideload/AndroidManifest.xml")
+186-        assets.directories.add("src/ytdlp/assets")
+187:        jniLibs.directories.add("src/ytdlp/jniLibs")
+188-      }
+189-    }
+190-  }
+--
+234-      buildConfigField("boolean", "IS_EXPERIMENTAL_BUILD", "false")
+235-      applicationIdSuffix = ".debug"
+236-      versionNameSuffix = "-${getCommitCount()}"
+237:      resValue("string", "app_name", "mpvRx-Debug")
+238-    }
+239-  }
+240-
+--
+321-        }
+322-      if (isPlayStoreRelease) {
+323-        output.versionCode.set(providers.provider {
+324:          check(runCommand("git rev-parse --is-shallow-repository") == "false") {
+325-            "Play Store release builds require full Git history (fetch-depth: 0)."
+326-          }
+327-          val commitCount = getCommitCount().toIntOrNull()
+--
+371-}
+372-
+373-dependencies {
+374:  testImplementation("junit:junit:4.13.2")
+375:  androidTestImplementation(libs.androidx.test.runner)
+376:  androidTestImplementation(libs.androidx.test.ext.junit)
+377:  implementation(libs.androidx.activity.compose)
+378:  implementation(platform(libs.androidx.compose.bom))
+379:  implementation(libs.androidx.ui)
+380:  implementation(libs.androidx.ui.graphics)
+381:  implementation(libs.androidsvg)
+382:  implementation(libs.androidx.material3.android)
+383:  implementation(libs.google.material)
+384:  implementation(libs.androidx.ui.tooling.preview)
+385:  debugImplementation(libs.androidx.ui.tooling)
+386:  debugImplementation(libs.leakcanary.android)
+387:  implementation(libs.bundles.compose.navigation3)
+388:  implementation(libs.androidx.appcompat)
+389:  implementation(libs.androidx.core.ktx)
+390:  implementation(libs.androidx.work.runtime)
+391:  implementation(libs.androidx.core.splashscreen)
+392:  implementation(libs.kmp.vibrate)
+393:  implementation(libs.androidx.compose.constraintlayout)
+394:  implementation(libs.androidx.constraintlayout)
+395:  implementation(libs.composables.material.symbols.rounded.filled.android)
+396:  implementation(libs.composables.material.symbols.rounded.filled.cmp)
+397:  implementation(libs.mediasession)
+398:  implementation(libs.androidx.documentfile)
+399:  implementation(libs.androidx.palette)
+400-
+401:  implementation(platform(libs.koin.bom))
+402:  implementation(libs.bundles.koin)
+403-
+404:  implementation(libs.seeker)
+405:  implementation(libs.compose.prefs)
+406:  implementation(libs.markdown.renderer.m3)
+407-
+408:  implementation(libs.accompanist.permissions)
+409-
+410:  implementation(libs.room.runtime)
+411:  ksp(libs.room.compiler)
+412:  implementation(libs.room.ktx)
+413-
+414:  implementation(libs.kotlinx.immutable.collections)
+415:  implementation(libs.kotlinx.serialization.json)
+416:  implementation(libs.okhttp)
+417:  implementation(libs.jsoup)
+418:  implementation(libs.androidx.media3.common)
+419:  implementation(libs.androidx.media3.exoplayer.core)
+420:  implementation(libs.androidx.media3.exoplayer.hls)
+421:  implementation(libs.androidx.media3.effect)
+422:  implementation(libs.androidx.media3.transformer)
+423:  implementation(libs.androidx.media3.ui)
+424:  implementation(platform(libs.sora.editor.bom))
+425:  implementation(libs.sora.editor)
+426:  implementation(libs.sora.language.textmate)
+427:  // implementation(libs.sora.oniguruma.native)
+428-
+429:  coreLibraryDesugaring(libs.desugar.jdk.libs)
+430-
+431:  implementation(libs.truetype.parser)
+432:  implementation(libs.fsaf)
+433:  implementation(libs.mediainfo.lib)
+434:  implementation(libs.google.cast.framework)
+435-
+436:  "standardImplementation"(files("libs/mpvlib-patched.aar"))
+437:  "playstoreImplementation"(variantOf(libs.mpvlib.standard) { artifactType("aar") })
+438:  "noVulkanImplementation"(variantOf(libs.mpvlib.no.vulkan) { artifactType("aar") })
+439:  "fongmiImplementation"(variantOf(libs.mpvlib.fongmi) { artifactType("aar") })
+440-
+441-  // Network protocol libraries
+442:  implementation(libs.smbj)
+443:  implementation(libs.dcerpc) {
+444-    // Reuse the existing SMBJ/crypto stack and use Android's Guava flavor.
+445-    exclude(group = "com.hierynomus", module = "smbj")
+446-    exclude(group = "org.bouncycastle", module = "bcprov-jdk18on")
+447-    exclude(group = "com.google.guava", module = "guava")
+448-  }
+449:  implementation(libs.guava)
+450:  implementation(libs.commons.net)
+451:  implementation(libs.jsch)                                   452:  implementation(libs.sardine.android) {
+453-    exclude(group = "xpp3", module = "xpp3")                  454-  }
+455:  implementation(libs.libarchive.android)                     456:  implementation(libs.nanohttpd)
+457:  implementation(libs.reorderable)                            458:  implementation(libs.androidx.biometric)
+459:  implementation(libs.telephoto.zoomable)                     460:  implementation(libs.haze.blur)
+461:  implementation(libs.kyant.backdrop)                         462:  implementation(libs.kyant.shapes)
+463-                                                              464-  // Keep both the Java API and native payloads out of the Play Store compilation classpath.                                    465-  sideloadDistributions.forEach { flavor ->
+466:    "${flavor}Implementation"(libs.libtorrent4j)              467:    "${flavor}Implementation"(libs.libtorrent4j.android.arm64)
+468:    "${flavor}Implementation"(libs.libtorrent4j.android.arm)  469-    if (enableX86) {
+470:      "${flavor}Implementation"(libs.libtorrent4j.android.x86)471:      "${flavor}Implementation"(libs.libtorrent4j.android.x8664)                                                                472-    }
+473-  }                                                           474-}
+                                                                  ========== build.gradle.kts ==========
+1-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+2-plugins {                                                       3:  alias(libs.plugins.android.application) apply false
+4:  alias(libs.plugins.kotlin.compose.compiler) apply false       5:  alias(libs.plugins.kotlinx.serialization) apply false
+6:  alias(libs.plugins.ksp) apply false                           7:  alias(libs.plugins.room) apply false
+8:  alias(libs.plugins.ktlint) apply false                        9-}
+                                                                  ========== gradle/libs.versions.toml ==========
+46-markdownRenderer = "0.45.0"                                    47-kotlinTest = "2.4.20"
+48-mediainfo = "v1.0.0-fix"
+49:mpvlib = "1.1.8"                                               50-googleCast = "22.3.1"
+51-androidxBiometric = "1.4.0-alpha07"                            52-leakcanary = "2.14"
+53:kmpVibrate = "1.1.0"                                           54-libtorrent4j = "2.1.0-39"
+55-libarchiveAndroid = "1.1.6"                                    56-ktlint = "14.2.0"
+--                                                                61-androidsvg = "1.4"
+62-                                                               63-[libraries]
+64:androidsvg = { module = "com.caverock:androidsvg-aar", version.ref = "androidsvg" }
+65-androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidxTestRunner" }
+66-androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidxTestJunit" }
+67-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+--                                                                93-markdown-renderer-m3 = { module = "com.mikepenz:multiplatform-markdown-renderer-m3", version.ref = "markdownRenderer" }          94-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlinTest" }                                        95-mediainfo-lib = { module = "com.github.marlboro-advance:mediainfoAndroid", version.ref = "mediainfo" }                           96:mpvlib-standard = { module = "app.gyrolet.mpvlib:mpvlib", version.ref = "mpvlib" }                                               97:mpvlib-no-vulkan = { module = "app.gyrolet.mpvlib:mpvlib-no-vulkan", version.ref = "mpvlib" }                                    98:mpvlib-fongmi = { module = "app.gyrolet.mpvlib:mpvlib-fongmi", version.ref = "mpvlib" }                                          99-
+100-google-material = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+101-androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+--                                                                138-reorderable = { module = "sh.calvin.reorderable:reorderable", version.ref = "reorderable" }                                     139-androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "androidxBiometric" }                             140-leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }                      141:kmp-vibrate = { module = "io.github.jmseb3:vibrate", version.ref = "kmpVibrate" }                                               142-libtorrent4j = { module = "org.libtorrent4j:libtorrent4j", version.ref = "libtorrent4j" }                                       143-libtorrent4j-android-arm64 = { module = "org.libtorrent4j:libtorrent4j-android-arm64", version.ref = "libtorrent4j" }           144-libtorrent4j-android-arm = { module = "org.libtorrent4j:libtorrent4j-android-arm", version.ref = "libtorrent4j" }
