@@ -1,0 +1,1168 @@
+$ su -c 'logcat -d -b all -v threadtime | grep -iE "shader|glsl|compile|bottosson|bt1886_inv|srgb|error|failed"'
+11-24 13:44:01.495 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:44:04.319  7183  7183 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:44:04.323  7183  7222 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:44:04.342  7183  7183 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 13:44:07.069 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:44:18.311  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:44:20.351  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 13:44:28.868  9185 14999 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:29.868  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:30.874  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:31.880  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:32.884  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:33.889  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:34.894  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:35.899  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:36.900  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:37.904  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:38.869  9185 14999 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:38.911  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:39.872  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:39.912  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:40.876  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:40.912  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:41.883  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:41.913  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:42.884  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:42.912  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:43.889  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:43.913  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:44.894  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:44.914  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:45.897  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:45.914  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:46.902  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:46.914  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:47.904  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:47.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:48.872  9185 14726 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:48.908  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:48.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:49.876  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:49.909  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:49.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:50.881  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:50.910  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:50.916  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:51.886  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:51.909  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:51.914  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:52.891  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:52.909  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:52.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:53.892  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:53.909  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:53.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:54.898  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:54.910  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:54.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:55.903  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:55.910  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:55.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:56.904  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:56.911  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:56.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:57.910  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:57.911  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:57.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:58.874  9185 14726 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:58.917  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:58.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:58.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:59.879  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:59.916  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:59.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:44:59.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:00.884  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:00.917  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:00.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:00.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:01.889  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:01.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:01.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:01.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:02.892  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:02.917  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:02.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:02.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:03.898  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:03.917  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:03.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:03.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:04.900  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:04.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:04.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:04.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:05.905  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:05.918  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:05.920  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:05.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:06.908  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:06.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:06.920  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:06.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:07.915  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:07.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:07.920  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:07.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:08.875  9185 14999 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:08.920  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:08.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:08.923  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:08.924  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:09.882  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:09.924  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:09.927  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:09.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:09.929  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:10.894  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:10.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:10.926  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:10.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:10.940  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:11.138  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 13:45:11.165  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 13:45:11.896  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:11.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:11.927  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:11.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:11.941  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:12.900  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:12.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:12.927  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:12.929  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:12.941  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:13.903  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:13.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:13.927  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:13.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:13.942  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:14.907  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:14.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:14.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:14.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:14.941  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.912  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.929  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.943  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:15.970  7945  7945 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:45:15.981  7945  7956 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:45:16.921  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:16.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:16.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:16.929  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:16.943  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:17.919  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:17.922  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:17.928  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:17.930  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:17.945  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 13:45:45.477 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:45:46.959 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:45:54.164 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:46:32.115 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:32.528 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:37.628 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:37.726 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:39.762  8747  8747 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:46:39.764  8747  8774 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:46:39.930  8783  8783 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:46:39.933  8783  8795 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:46:39.954  8783  8783 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 13:46:44.489 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:46:57.876 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:58.024 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:46:59.135  9043  9043 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:46:59.152  9043  9092 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:47:03.953 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:48:08.905 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:48:09.116 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:48:09.809  9185  9630 E ProcessManager: error write exception log
+11-24 13:48:11.608 10283 10283 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:11.610 10283 10295 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:11.690  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:13.206 10392 10392 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:13.209 10392 10407 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:13.471 10436 10436 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:13.473 10436 10457 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:48:15.322 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:49:27.382 10991 10991 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:49:27.385 10991 11006 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 13:49:55.719 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:49:55.963 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:50:03.210 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:58:50.755 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:58:52.314 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:58:59.013 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 13:59:02.100 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:59:02.369 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 13:59:07.972 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:00:14.604 15936 15936 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:14.612 15936 15948 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:16.425 15936 16193 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:00:16.430 15936 16193 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:00:16.444 15936 16193 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:00:16.462  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:16.602 15936 15936 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:00:16.770  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:16.915  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:17.061  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:17.103  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:17.694  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:17.785  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:18.193  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:19.573  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:19.789  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:22.891 16601 16601 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:23.032 16655 16655 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:23.051 16655 16711 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:23.119 16601 16719 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:24.707 16655 16757 E ActivityThread: Failed to find provider info for com.xiaomi.mipicks.dbcache
+11-24 14:00:24.865 16849 16849 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:24.871 16849 16861 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:24.920  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:25.261  9185  9630 E ProcessManager: error write exception log
+11-24 14:00:30.839 16996 16996 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:30.845 16996 17006 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:00:53.655  9185  9630 E ProcessManager: error write exception log
+11-24 14:02:00.315 15936 15936 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:02:37.771 15936 16136 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:02:37.783 15936 16136 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:02:37.786 15936 16136 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:02:37.917 15936 16193 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:02:37.919 15936 16193 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:03:07.802 15936 16136 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:03:11.289 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:03:11.409 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:03:12.607  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:12.666 18416 18416 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:12.669 18416 18428 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:12.976 18459 18459 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:12.980 18459 18479 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:13.147 18496 18496 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:13.151 18496 18522 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:13.174 18496 18496 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:03:17.375 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:03:34.181  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:34.923  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:34.968  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:35.764  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:35.864  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:36.190  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:38.453  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:38.643 18918 18918 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:38.736 18918 18944 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:38.787 18928 18928 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:38.899 18928 18961 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:03:41.065  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:03:41.101  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:03:41.141  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:03:42.189  9185  9630 E ProcessManager: error write exception log
+11-24 14:03:49.440  9185  9819 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:50.443  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:51.445  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:52.448  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:53.454  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:54.458  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:55.460  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:56.466  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:57.472  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:58.476  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:59.444  9185  9758 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:03:59.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:00.448  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:00.482  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:01.455  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:01.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:02.457  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:02.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:03.460  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:03.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:04.466  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:04.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:05.469  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:05.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:06.474  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:06.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:07.478  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:07.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:08.480  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:08.482  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:09.445  9185  9758 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:09.486  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:09.487  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:10.451  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:10.487  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:10.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:11.454  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:11.487  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:11.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:12.456  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:12.487  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:12.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:13.460  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:13.487  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:13.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:14.464  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:14.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:14.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:15.469  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:15.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:15.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:16.474  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:16.488  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:16.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:17.480  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:17.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:17.490  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:18.484  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:18.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:18.490  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:19.447  9185  9853 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:19.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:19.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:19.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:20.448  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:20.489  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:20.490  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:20.491  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:21.452  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:21.490  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:21.491  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:21.492  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:22.457  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:22.490  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:22.491  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:22.492  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:23.458  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:23.491  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:23.492  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:23.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:24.464  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:24.492  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:24.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:24.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:25.468  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:25.491  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:25.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:25.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:26.470  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:26.492  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:26.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:26.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:27.475  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:27.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:27.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:27.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:28.477  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:28.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:28.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:28.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:29.448  9185 14976 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:29.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:29.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:29.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:29.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:30.454  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:30.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:30.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:30.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:30.496  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:31.458  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:31.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:31.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:31.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:31.496  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:32.463  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:32.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:32.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:32.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:32.497  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:33.468  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:33.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:33.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:33.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:33.496  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:34.473  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:34.484  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:34.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:34.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:34.497  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:35.476  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:35.482  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:35.493  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:35.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:35.497  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:36.478  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:36.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:36.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:36.495  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:36.498  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:37.345  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:04:37.357  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:04:37.478  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:37.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:37.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:37.500  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:37.501  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.481  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.483  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.494  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.496  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.501  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:04:38.958 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:04:39.197 19508 19508 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:39.214 19508 19521 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:39.242 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:04:39.743 19537 19537 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:39.750 19537 19548 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:40.137 19559 19559 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:40.141 19559 19570 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:40.631  1048  6816 E keystore2: system/security/keystore2/src/error.rs:171 - system/security/keystore2/src/security_level.rs:317
+11-24 14:04:40.631  1048  6816 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+11-24 14:04:40.877  1048  6816 E keystore2: system/security/keystore2/src/error.rs:171 - system/security/keystore2/src/security_level.rs:317
+11-24 14:04:40.877  1048  6816 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+11-24 14:04:44.999 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:04:46.034 19835 19835 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:46.042 19835 19852 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:57.728 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:04:57.935 19998 19998 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:57.940 19998 20009 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:04:57.999 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:05:03.283 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:05:03.579 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:05:05.071 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:05:05.521 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:05:11.907 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:05:28.567  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:05:28.578  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:05:28.598  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:05:29.553  9185  9630 E ProcessManager: error write exception log
+11-24 14:05:29.980  9185  9630 E ProcessManager: error write exception log
+11-24 14:05:30.106  9185  9630 E ProcessManager: error write exception log
+11-24 14:05:30.343  9185  9630 E ProcessManager: error write exception log
+11-24 14:05:30.806  9185  9630 E ProcessManager: error write exception log
+11-24 14:05:32.161 20448 20448 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:05:32.264 20448 20483 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:05:37.185  9185  9268 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:38.189  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:39.191  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:40.196  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:41.197  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:42.200  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:43.206  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:44.211  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:45.216  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:46.221  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:47.187  9185 13224 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:47.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:48.193  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:48.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:49.195  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:49.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:50.197  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:50.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:51.202  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:51.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:52.204  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:52.226  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:53.210  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:53.227  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:54.214  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:54.227  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:55.220  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:55.228  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:56.225  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:56.228  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:57.189  9185  9438 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:57.230  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:57.232  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:58.193  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:58.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:58.232  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:59.197  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:59.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:05:59.233  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:00.200  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:00.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:00.234  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:01.206  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:01.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:01.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:02.211  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:02.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:02.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:03.212  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:03.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:03.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:04.216  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:04.232  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:04.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:05.222  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:05.232  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:05.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:06.227  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:06.233  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:06.238  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:07.191  9185  9268 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:07.229  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:07.234  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:07.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:08.193  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:08.230  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:08.234  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:08.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:09.197  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:09.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:09.234  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:09.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:10.200  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:10.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:10.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:10.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:11.202  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:11.231  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:11.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:11.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:12.210  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:12.242  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:12.260  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:12.261  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:12.461  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:06:12.464  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:06:12.483  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:06:13.208  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:13.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:13.245  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:13.263  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:14.212  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:14.235  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:14.245  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:14.263  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:15.218  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:15.236  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:15.246  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:15.263  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:16.221  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:16.237  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:16.246  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:16.264  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:06:19.543 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:06:19.673 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:06:29.361 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:11:56.208 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:11:56.236  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:11:56.380 23334 23334 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:11:56.383 23334 23348 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:11:56.821 23358 23358 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:11:56.824 23358 23369 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:11:58.971 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:02.176  9185  9630 E ProcessManager: error write exception log
+11-24 14:12:09.134 23522 23522 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:09.138 23522 23536 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:09.881 23608 23608 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:09.884 23608 23618 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:09.907 23608 23608 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:09.998 23629 23629 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:10.003 23629 23641 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:10.443 23675 23675 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:10.456 23675 23704 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:10.492 23675 23675 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:10.500 23652 23652 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:10.626 23652 23728 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:12.602 23784 23784 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:12.613 23784 23794 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:12.641 23784 23784 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:12.937 23811 23811 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:12.945 23811 23821 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:12.964 23811 23811 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:13.895 23841 23841 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:13.899 23841 23852 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:13.924 23841 23841 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:14.024 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:12:14.146 23870 23870 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:14.151 23870 23880 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:14.172 23870 23870 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:16.223 23933 23933 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:16.230 23933 23943 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:16.247 23933 23933 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:16.415 23954 23954 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:16.421 23954 23964 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:12:16.440 23954 23954 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:12:36.271 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:36.558 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:38.986 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:39.657 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:44.507 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:44.759 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:12:50.306 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:13:05.824 24516 24516 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:05.828 24516 24536 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:05.837 24517 24517 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:05.843 24517 24541 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:06.445 22578 24620 E ActivityThread: Failed to find provider info for androidx.car.app.connection
+11-24 14:13:15.180 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:15.474 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:19.591 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:19.852 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:23.522 24833 24833 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:23.525 24833 24843 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:13:23.545 24833 24833 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:13:24.102 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:24.362 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:29.909 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:13:57.975 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:58.287 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:13:58.849  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:14:03.355 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:06.400 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:11.975 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:14:47.009 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:47.309 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:51.019 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:51.298 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:14:57.555 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:15:30.046 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:15:30.421 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:15:36.024 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:15:42.493 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:15:42.810 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:15:48.294 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:15:54.405 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:15:54.737 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:00.308 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:16:01.630 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:01.906 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:07.454 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:16:08.263 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:08.291  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:16:08.457 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:12.039 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:12.268 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:17.999 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:16:48.326 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:48.702 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:16:54.359 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:17:03.528 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:17:03.798 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:17:09.403 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:17:32.223 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:17:32.609 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:17:38.493 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:18:15.393 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:18:15.744 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:18:21.731 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:18:29.005 27386 27386 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:29.008 27386 27399 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:30.472  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:30.654  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:30.698  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:30.852  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:30.900 27386 27550 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:18:30.904 27386 27550 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:18:30.912 27386 27550 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:18:30.927 27386 27386 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:18:31.034  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:31.125  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:31.203  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:32.861 27697 27697 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:33.074 27697 27750 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:37.240 28022 28022 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:37.598 28022 28099 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:37.832 28103 28103 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:37.932 28103 28117 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:38.568  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:40.572 28103 28155 E ActivityThread: Failed to find provider info for com.xiaomi.mipicks.dbcache
+11-24 14:18:41.158 28281 28281 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:41.167 28281 28295 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:41.884  9185  9630 E ProcessManager: error write exception log
+11-24 14:18:42.060 28303 28303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:18:42.223 28303 28358 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:19:09.223  9185  9630 E ProcessManager: error write exception log
+11-24 14:19:45.132  9185  9630 E ProcessManager: error write exception log
+11-24 14:21:23.185 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:23.188 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:23.188 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:23.531 27386 27550 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:23.532 27386 27550 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:53.194 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:53.202 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:53.203 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:53.400 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:21:53.403 27386 27499 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:23:10.105 30800 30800 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:23:10.115 30800 30815 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:23:30.906 27386 27552 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:24:41.884 31523 31523 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:24:41.889 31523 31535 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:24:42.384  9185  9630 E ProcessManager: error write exception log
+11-24 14:24:43.105  9185  9630 E ProcessManager: error write exception log
+11-24 14:26:32.049 32534 32534 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:26:32.059 32534 32553 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:26:32.108 32534 32534 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:27:26.871   584   584 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:27:26.943   584   594 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:27:28.575   584   600 E ActivityThread: Failed to find provider info for com.xiaomi.mipicks.dbcache
+11-24 14:28:30.908 27386 27552 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:29:35.029  2694  2694 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:29:35.032  2694  2713 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:04.194 27386 27386 E ActivityThread: Failed to find provider info for com.ss.android.ugc.trill.apm
+11-24 14:31:08.631 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:31:08.824 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:31:09.985  3470  3470 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:10.000  3470  3485 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:10.562  9185  9630 E ProcessManager: error write exception log
+11-24 14:31:10.630  9185  9630 E ProcessManager: error write exception log
+11-24 14:31:10.722  3564  3564 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:10.725  3564  3575 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:14.822 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:31:18.199 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:31:18.445 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:31:19.265  9185  9630 E ProcessManager: error write exception log
+11-24 14:31:19.600  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:24.641 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:31:31.499  3826  3826 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:31.511  3826  3836 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:31:31.540  3826  3826 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:32:07.529  4093  4093 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:07.535  4093  4104 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:08.709  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:08.944  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:09.306  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:16.054 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:16.175 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:17.401  4278  4278 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:17.441  4278  4291 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:18.593 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:18.705 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:19.849 10005 11196 E ActivityThread: Failed to find provider info for com.mi.globalminusscreen.widget.external
+11-24 14:32:22.545  9185  9355 E PackageManager: cleanupDexUseInfo failed.[Ljava.lang.StackTraceElement;@9cc2507
+11-24 14:32:23.011  4443  4443 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.026  4443  4458 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.165  4457  4457 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.172  4457  4476 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.176  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:32:23.327  4486  4486 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.344  4486  4502 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:23.511  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:23.815  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:24.185  4551  4551 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.187  4551  4568 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.422  4623  4623 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.440  4623  4635 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.738  4618  4618 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.787  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:24.839  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:24.858  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:24.866  4618  4661 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:24.886  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:25.065  4646  4646 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:25.276  4646  4683 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:26.915  4278  4306 E AconfigFlags: Failed to read Aconfig values from /vendor/etc/aconfig_flags.pb
+11-24 14:32:26.915  4278  4306 E AconfigFlags: java.io.FileNotFoundException: /vendor/etc/aconfig_flags.pb: open failed: ENOENT (No such file or directory)
+11-24 14:32:26.915  4278  4306 E AconfigFlags: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-24 14:32:27.285 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:32:28.129  4749  4749 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:28.130  4749  4762 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:29.908  4809  4809 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:29.911  4809  4822 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:30.981  4809  4809 E AconfigFlags: Failed to read Aconfig values from /vendor/etc/aconfig_flags.pb
+11-24 14:32:30.981  4809  4809 E AconfigFlags: java.io.FileNotFoundException: /vendor/etc/aconfig_flags.pb: open failed: ENOENT (No such file or directory)
+11-24 14:32:30.981  4809  4809 E AconfigFlags: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-24 14:32:52.149  5067  5067 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:52.154  5067  5078 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:52.470  9185 13836 E BackupManagerService: Transport error -1000; no restore possible
+11-24 14:32:53.389  5102  5102 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:53.408  5102  5126 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:53.432  5105  5105 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:53.437  5105  5129 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:54.240  5154  5154 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:54.352  5154  5213 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:54.451  5196  5196 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:54.568  5196  5230 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.233  5255  5255 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.241  5255  5272 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.268  5255  5255 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:32:55.436  5301  5301 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.444  5301  5317 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.745  5316  5316 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:55.850  5316  5354 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:32:56.729  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:56.875  9185  9630 E ProcessManager: error write exception log
+11-24 14:32:58.196 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:58.483 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:32:59.576  9185  9630 E ProcessManager: error write exception log
+11-24 14:33:00.076  9185  9630 E ProcessManager: error write exception log
+11-24 14:33:00.691  9185  9630 E ProcessManager: error write exception log
+11-24 14:33:02.600  9185  9630 E ProcessManager: error write exception log
+11-24 14:33:05.163  5504  5504 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:05.166  5504  5518 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:05.501  9185  9303 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:10.057 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:33:21.836 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:33:21.937 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:33:22.241  5880  5880 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:22.250  5880  5891 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:23.581  5912  5912 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:23.590  5912  5933 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:23.611  5916  5916 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:23.620  5916  5940 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:24.733  5912  5981 E ActivityThread: Failed to find provider info for com.xiaomi.mipicks.dbcache
+11-24 14:33:26.539  6102  6102 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:26.693  6102  6136 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:28.431 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:33:36.422  9185  9630 E ProcessManager: error write exception log
+11-24 14:33:38.190  6233  6233 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:38.206  6233  6258 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:33:38.236  6233  6233 E ForceDarkHelperStubImpl: getForceDarkOriginState transact failed , mService: null
+11-24 14:34:10.699  6580  6580 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:34:10.704  6580  6594 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:34:11.375  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:11.402  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:11.449  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:11.493  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:20.298  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:34:20.397  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:20.550  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:20.671  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:21.597  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:21.725  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:22.374  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:22.913  9185  9630 E ProcessManager: error write exception log
+11-24 14:34:24.852  6849  6849 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:34:24.963  6849  6863 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:34:28.360  9185  9819 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:29.344  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:30.350  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:31.353  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:32.358  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:33.361  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:34.364  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:35.370  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:36.375  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:37.378  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:38.362  9185  9269 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:38.383  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:39.365  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:39.386  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:40.368  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:40.383  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:41.374  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:41.384  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:42.379  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:42.384  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:43.384  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:43.385  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:44.389  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:44.390  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:45.393  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:45.394  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:46.396  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:46.397  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:47.400  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:47.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:48.364  9185  9755 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:48.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:48.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:49.369  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:49.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:49.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:50.373  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:50.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:50.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:51.377  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:51.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:51.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:52.378  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:52.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:52.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:53.383  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:53.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:53.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:54.388  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:54.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:54.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:55.393  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:55.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:55.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:56.398  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:56.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:56.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:57.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:57.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:57.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:58.366  9185  9269 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:58.404  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:58.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:58.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:59.369  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:59.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:59.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:34:59.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:00.374  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:00.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:00.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:00.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:01.377  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:01.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:01.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:01.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:02.381  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:02.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:02.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:02.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:03.382  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:03.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:03.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:03.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:04.387  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:04.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:04.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:04.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:05.391  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:05.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:05.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:05.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:06.396  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:06.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:06.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:06.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:07.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:07.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:07.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:07.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:08.368  9185  9819 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:08.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:08.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:08.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:08.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:09.372  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:09.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:09.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:09.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:09.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:10.374  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:10.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:10.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:10.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:10.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:11.377  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:11.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:11.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:11.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:11.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:12.380  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:12.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:12.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:12.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:12.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:13.385  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:13.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:13.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:13.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:13.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:14.390  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:14.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:14.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:14.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:14.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:15.393  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:15.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:15.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:15.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:15.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:16.399  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:16.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:16.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:16.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:16.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:17.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:17.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:17.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:17.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:17.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.369  9185  9755 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:18.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.374  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:19.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.378  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:20.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.380  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:21.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.386  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.403  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:22.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.389  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:23.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.393  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:24.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.393  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.410  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:25.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.396  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:26.417  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.401  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.402  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:27.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.371  9185  9269 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.404  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:28.417  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.372  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:29.417  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.378  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.405  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.411  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:30.418  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.382  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:31.418  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.385  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.412  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:32.418  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.386  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.406  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.413  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:33.418  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.025  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:35:34.030  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:35:34.038  9185  9537 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+11-24 14:35:34.387  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.409  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:34.422  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.391  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.420  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:35.543 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:35.714 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:36.392  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.410 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:36.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:36.420  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.397  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.407  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.408  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.414  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.415  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.416  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.420  9185  9303 E ThermalHalWrapper: Couldn't get temperatures because of HAL error: ThermalHAL not initialized properly.
+11-24 14:35:37.864  9185  9630 E ProcessManager: error write exception log
+11-24 14:35:42.494 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:42.618 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:48.973 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:35:50.811 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:51.125 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:35:52.239  7562  7562 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:35:52.242  7562  7575 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:35:57.161 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:35:57.303  7805  7805 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:35:57.308  7805  7815 E MQSEventManagerDelegate: failed to get MQSService.
+11-24 14:36:32.036 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:36:32.366 10005  8841 E ActivityThread: Failed to find provider info for com.miui.powerkeeper.configure
+11-24 14:36:33.538 10005 10005 D Launcher.application: error, wait for resetOpenActionBlockRunnable timeout
+11-24 14:36:33.646  6580  6664 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:3) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:9
+11-24 14:36:33.705  6580  6664 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:3) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807717 framenumber:14
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [6, 0]
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [6, 6]
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 0]
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 0]
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 1]
+11-24 14:36:33.855  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 1]
+11-24 14:36:33.909  9185  9266 W System  : A resource failed to call HardwareBuffer.close. 
+11-24 14:36:34.465  6580  6590 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:17
+11-24 14:36:34.963  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 0]
+11-24 14:36:34.963  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: AddAndApply() 167: Failed to apply optimization [2, 0]
+11-24 14:36:35.033 21207 21219 E BLASTBufferQueue: [VRI[StatusBar]#3](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:91083371455271 framenumber:54700
+11-24 14:36:36.398  6580  6580 I ImeTracker: in.hridayan.ashell:4881ef5: onFailed at PHASE_CLIENT_VIEW_SERVED
+11-24 14:36:36.896  6580  8110 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807721 framenumber:2
+11-24 14:36:36.952  6580  6580 I ImeTracker: in.hridayan.ashell:255371af: onFailed at PHASE_CLIENT_VIEW_SERVED
+11-24 14:36:37.572  6580  6591 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807716 framenumber:59
+11-24 14:36:37.656  6580  6596 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807714 framenumber:76
+11-24 14:36:37.756  6580  6596 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:4) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:85
+11-24 14:36:37.798  6580  6596 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:4) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:89
+11-24 14:36:37.831  6580  6596 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:4) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:93
+11-24 14:36:37.865  6580  6596 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:4) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807714 framenumber:96
+11-24 14:36:38.309 10005  8841 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+11-24 14:36:38.981  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 292: Failed to reset optimization here [2, 0]
+11-24 14:36:38.982  1460  1597 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: AddAndApply() 167: Failed to apply optimization [2, 0]
+11-24 14:36:38.984  6580  8110 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:133
+11-24 14:36:39.036 19847 21619 E BLASTBufferQueue: [VRI[DockAssistantView]#127](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:85242215924563 framenumber:1
+11-24 14:36:39.036  6580  8110 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807714 framenumber:136
+11-24 14:36:39.886  6580  8110 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807716 framenumber:147
+11-24 14:36:40.120  6580  8110 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807714 framenumber:192
+11-24 14:36:40.178  6580  6591 E BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:28260884807715 framenumber:197
+
