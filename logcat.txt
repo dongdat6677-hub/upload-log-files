@@ -1,0 +1,305 @@
+$ su -c 'logcat -d -t 300'
+--------- beginning of main
+11-24 12:02:58.802  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843007, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.802  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843007, oldVsyncId=71843007, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.802  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843007, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.802  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843007, oldVsyncId=71843007, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.802  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843007, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.803  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9892478
+11-24 12:02:58.807  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99079317
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, oldVsyncId=71843007, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, oldVsyncId=71843016, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, oldVsyncId=71843016, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, oldVsyncId=71843016, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.810  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843016, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.824  5861  5917 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:3) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:25172803321889 framenumber:111
+11-24 12:02:58.826  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9921231
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, oldVsyncId=71843016, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, oldVsyncId=71843024, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, oldVsyncId=71843024, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, oldVsyncId=71843024, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.827  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843024, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.832  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9932666
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, oldVsyncId=71843024, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, oldVsyncId=71843033, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, oldVsyncId=71843033, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, oldVsyncId=71843033, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.835  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843033, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.841  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99424875
+11-24 12:02:58.851  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9950916
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, oldVsyncId=71843033, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, oldVsyncId=71843041, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, oldVsyncId=71843041, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, oldVsyncId=71843041, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.852  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843041, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.859  5861  5897 W RenderInspector: QueueBuffer time out on in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity, count=32, avg=8 ms, max=18 ms.
+11-24 12:02:58.860  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99581426
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, oldVsyncId=71843041, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, oldVsyncId=71843057, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, oldVsyncId=71843057, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, oldVsyncId=71843057, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.860  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843057, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, oldVsyncId=71843057, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, oldVsyncId=71843065, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, oldVsyncId=71843065, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, oldVsyncId=71843065, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.877  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843065, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.877  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9964333
+11-24 12:02:58.885  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99696314
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, oldVsyncId=71843065, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, oldVsyncId=71843074, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, oldVsyncId=71843074, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, oldVsyncId=71843074, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.885  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843074, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.902  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99741626
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, oldVsyncId=71843074, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, oldVsyncId=71843082, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, oldVsyncId=71843082, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, oldVsyncId=71843082, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.902  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843082, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.910 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, oldVsyncId=71843082, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, oldVsyncId=71843091, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, oldVsyncId=71843091, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, oldVsyncId=71843091, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.910  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843091, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.911 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:58.911  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99780345
+11-24 12:02:58.917 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:58.925 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:58.927  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.998134
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843091, layerName=StatusBar#67986
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843106, layerName=StatusBar#67986
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843106, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843106, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843106, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, oldVsyncId=71843106, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.927  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843106, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.935  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.99841607
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, oldVsyncId=71843106, layerName=StatusBar#67986
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, oldVsyncId=71843129, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, oldVsyncId=71843129, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, oldVsyncId=71843129, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, oldVsyncId=71843129, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.935  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843129, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.952  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9986565
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, oldVsyncId=71843129, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, oldVsyncId=71843137, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, oldVsyncId=71843137, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, oldVsyncId=71843137, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.952  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843137, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.960  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.9988613
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, oldVsyncId=71843137, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, oldVsyncId=71843146, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, oldVsyncId=71843146, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, oldVsyncId=71843146, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.960  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843146, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.977  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 1.0
+11-24 12:02:58.977  5861  5861 D ViewRootImplStubImpl: onAnimationEnd,canceled: false
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, oldVsyncId=71843146, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, oldVsyncId=71843154, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, oldVsyncId=71843154, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, oldVsyncId=71843154, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.977  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843154, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.977  5861  5861 I ImeTracker: in.hridayan.ashell:860fd53c: onShown
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, oldVsyncId=71843154, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, oldVsyncId=71843163, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, oldVsyncId=71843163, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.986  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, oldVsyncId=71843163, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.986  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843163, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, oldVsyncId=71843163, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, oldVsyncId=71843171, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, oldVsyncId=71843171, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, oldVsyncId=71843171, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:58.994  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843171, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, oldVsyncId=71843171, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, oldVsyncId=71843172, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, oldVsyncId=71843172, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, oldVsyncId=71843172, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.010  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843172, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.016  5861  5917 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:3) Faking releaseBufferCallback from transactionCompleteCallback 129
+11-24 12:02:59.019  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843181, oldVsyncId=71843172, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.019  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843181, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.019  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843181, oldVsyncId=71843181, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.019  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843181, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.033  5861  5917 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:25172803321891 framenumber:129
+11-24 12:02:59.124  9185  9482 I MIUIInput: [MotionEvent] notifyMotion - eventTime=507544612317000, deviceId=5, source=0x1002, policyFlags=0x0, action=0x0, flags=0x0, downTime=507544612317000
+11-24 12:02:59.125  9185  9481 I MIUIInput: [MotionEvent] publisher action=0x0, deviceId=5, 507544612, channel '7c0d454 InputMethod (server)'
+11-24 12:02:59.126 15993 15993 I MIUIInput: [MotionEvent] ViewRootImpl windowName 'InputMethod', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=507544612, downTime=507544612, phoneEventTime=12:02:59.124 } moveCount:0
+11-24 12:02:59.127 19847 19847 I SidebarCoverView: onTouch : 4
+11-24 12:02:59.180  9185  9482 I MIUIInput: [MotionEvent] notifyMotion - eventTime=507544668068000, deviceId=5, source=0x1002, policyFlags=0x0, action=0x1, flags=0x0, downTime=507544612317000
+11-24 12:02:59.180  9185  9481 I MIUIInput: [MotionEvent] publisher action=0x1, deviceId=5, 507544668, channel '7c0d454 InputMethod (server)'
+11-24 12:02:59.181 15993 15993 I MIUIInput: [MotionEvent] ViewRootImpl windowName 'InputMethod', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=507544668, downTime=507544612, phoneEventTime=12:02:59.180 } moveCount:0
+11-24 12:02:59.203  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843182, oldVsyncId=71843181, layerName=InputMethod#93026
+11-24 12:02:59.203  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843182, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.206  5861  5897 W RenderInspector: DequeueBuffer time out on in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity, count=11, avg=10 ms, max=14 ms.
+11-24 12:02:59.211  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843204, oldVsyncId=71843182, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.211  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843204, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.211  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843204, oldVsyncId=71843204, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.211  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843204, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.228  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843212, oldVsyncId=71843204, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.228  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843212, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.303  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843214, oldVsyncId=71843212, layerName=InputMethod#93026
+11-24 12:02:59.303  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843214, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.720  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843222, oldVsyncId=71843214, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.721  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843222, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.726  5861  5871 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:2) Faking releaseBufferCallback from transactionCompleteCallback 133
+11-24 12:02:59.859  9185  9482 I MIUIInput: [MotionEvent] notifyMotion - eventTime=507545346433000, deviceId=5, source=0x1002, policyFlags=0x0, action=0x0, flags=0x0, downTime=507545346433000
+11-24 12:02:59.861  9185  9481 I MIUIInput: [MotionEvent] publisher action=0x0, deviceId=5, 507545346, channel '2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity (server)'
+11-24 12:02:59.862 19847 19847 I SidebarCoverView: onTouch : 4
+11-24 12:02:59.862  5861  5861 I MIUIInput: [MotionEvent] ViewRootImpl windowName 'in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=507545346, downTime=507545346, phoneEventTime=12:02:59.858 } moveCount:0
+11-24 12:02:59.892  9185  9482 I MIUIInput: [MotionEvent] notifyMotion - eventTime=507545380749000, deviceId=5, source=0x1002, policyFlags=0x0, action=0x1, flags=0x0, downTime=507545346433000
+11-24 12:02:59.893  9185  9481 I MIUIInput: [MotionEvent] publisher action=0x1, deviceId=5, 507545380, channel '2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity (server)'
+11-24 12:02:59.893  5861  5861 I MIUIInput: [MotionEvent] ViewRootImpl windowName 'in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=507545380, downTime=507545346, phoneEventTime=12:02:59.892 } moveCount:0
+11-24 12:02:59.895  5861  5861 I ImeTracker: in.hridayan.ashell:a9c71f20: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+11-24 12:02:59.896 15993 15993 I LatinIME: hideWindow
+11-24 12:02:59.896 15993 15993 V InputMethodService: CALL: hideWindow
+11-24 12:02:59.896 15993 15993 I LatinIME: onFinishInputView
+11-24 12:02:59.897 15993 15993 I LatinIME: onWindowHidden
+11-24 12:02:59.904  5861  5861 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@212362207 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@42801e1
+11-24 12:02:59.905 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:59.905  5861  5861 D InsetsController: hide(ime(), fromIme=true)
+11-24 12:02:59.907  5861  5897 W RenderInspector: QueueBuffer time out on in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity, count=1, avg=18 ms, max=18 ms.
+11-24 12:02:59.907 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:59.911 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:59.912  5861  5861 D ViewRootImplStubImpl: requestedTypes: 8
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, oldVsyncId=71843222, layerName=StatusBar#67986
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, oldVsyncId=71843267, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, oldVsyncId=71843267, layerName=InputMethod#93026
+11-24 12:02:59.913  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843267, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.919  5861  5871 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:2) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:25172803321891 framenumber:133
+11-24 12:02:59.919 21207 21207 D ControlCenterHeaderExpandController: onExpansionChanged: progress =  0.0
+11-24 12:02:59.920  9185  9453 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hw.touchfeature@1.0::ITouchFeature/default
+11-24 12:02:59.920 19847 19847 D DockWindowManagerService: updateSidebarPositionIfNeed keyboardHeight = 0
+11-24 12:02:59.921  1494  1494 D TouchFeatureV2: setModeValue id:0, mode:25, value:0
+11-24 12:02:59.921  5861  5861 D ViewRootImplStubImpl: onAnimationStart
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, oldVsyncId=71843267, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, oldVsyncId=71843282, layerName=2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#92560
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, oldVsyncId=71843282, layerName=Input Consumer recents_animation_input_consumer#61
+11-24 12:02:59.921  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843282, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.921  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.0
+11-24 12:02:59.922 19847 19847 D SidebarLayoutUtils: adjustSidebarY: 691
+11-24 12:02:59.922 19847 19847 I SidebarLayoutUtils: getSidebarY, y = 691
+11-24 12:02:59.923 19847 19847 I DockFeature: isSupportDock: isSupportFreeform=true	isPhone=true	isAboveMiui125=true	isSupportDock=true	isDevBuild=false
+11-24 12:02:59.924 19847 19847 D DockWindowManager: calAdaptCutoutHeight cutoutRect : Rect(0, 0 - 0, 0) sidebarWrapperTopY = 691 sidebarBottomY = 967
+11-24 12:02:59.924 19847 19847 I DockWindowManager: moveSidebar: 691 ===> 691
+11-24 12:02:59.927  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.013452404
+11-24 12:02:59.930 19847 19847 I DockWindowManager: saveSidebarBounds: last = [{"l":0,"t":747,"r":7,"b":910}]
+11-24 12:02:59.935  5861  5917 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:4) Faking releaseBufferCallback from transactionCompleteCallback 135
+11-24 12:02:59.935  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.0493906
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843282, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843304, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843304, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843304, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843304, layerName=2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#92560
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, oldVsyncId=71843304, layerName=Input Consumer recents_animation_input_consumer#61
+11-24 12:02:59.938  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843304, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.944  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.100068815
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843304, layerName=DockAssistantView#92937
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#92560
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=Input Consumer recents_animation_input_consumer#61
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, oldVsyncId=71843348, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.946  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843348, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.947  5861  5861 I HandWritingStubImpl: getCurrentKeyboardType: 1
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, oldVsyncId=71843348, layerName=2075177 in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#92560
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, oldVsyncId=71843363, layerName=Input Consumer recents_animation_input_consumer#61
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, oldVsyncId=71843363, layerName=com.miui.securitycenter/.FloatingWindow#92939
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, oldVsyncId=71843363, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, oldVsyncId=71843363, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.963  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843363, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.969 19847 19881 E BLASTBufferQueue: [VRI[DockAssistantView]#60](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:85242215924047 framenumber:148
+11-24 12:02:59.969  5861  5874 E BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:1) ERROR: releaseBufferCallback without corresponding submitted buffer bufferId:25172803321889 framenumber:135
+11-24 12:02:59.973  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.15967928
+11-24 12:02:59.979  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.2239251
+11-24 12:02:59.980  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843386, oldVsyncId=71843363, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.980  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843386, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.980  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843386, oldVsyncId=71843386, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.980  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843386, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.985  5861  5861 D ViewRootImplStubImpl: onAnimationUpdate, value: 0.28968102
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, oldVsyncId=71843386, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, oldVsyncId=71843394, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, oldVsyncId=71843394, layerName=Surface(name=7c0d454 InputMethod#118)/@0xb4bf743 - animation-leash of insets_animation#93025
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, mIsContainTask1=0, mIsContainTaskOther=0
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, oldVsyncId=71843394, layerName=in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity#93009
+11-24 12:02:59.988  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=71843394, mIsContainTask1=0, mIsContainTaskOther=0
+
+$ su -c 'logcat -d -v time | grep -iE "MpvSurfaceHost|Display P3 dataspace|Failed to set Display P3"'
+
