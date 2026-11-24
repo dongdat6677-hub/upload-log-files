@@ -1,0 +1,383 @@
+$ su -c 'logcat -d -b all -v threadtime | grep -iE "MpvColorPipeline|Error applying HDR screen output|HDR_OUTPUT|PlayerViewModel|gyrolet.mpvrx"'
+11-24 13:03:15.596  9185  9269 E WindowManager: setClientVisible ActivityRecord{d329887 u0 app.gyrolet.mpvrx/.IconBlackSolid t1068} true
+11-24 13:03:15.773  9185  9285 E WindowManager: setClientVisible ActivityRecord{d329887 u0 app.gyrolet.mpvrx/.IconBlackSolid t1068} true
+11-24 13:03:15.820  9185  9438 E WindowManager: setClientVisible ActivityRecord{8574b3b u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1068 f}} false
+11-24 13:34:51.863  9185 14975 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid true
+11-24 13:34:51.885  9185 14975 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:34:51.924  9185  9285 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:34:55.051  9185 13224 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} false
+11-24 13:34:56.615  9185 14726 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:34:56.788  9185  9285 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:35:00.760  9185 13020 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} false
+11-24 13:35:06.671  9185  9439 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:35:06.757  9185  9285 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:36:13.627  9185 14726 E WindowManager: setClientVisible ActivityRecord{5f3e0a9 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity true
+11-24 13:36:13.699  9185  9439 E WindowManager: setClientVisible ActivityRecord{5f3e0a9 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1076} true
+11-24 13:36:13.700  9185  9439 E WindowManager: setClientVisible ActivityRecord{5f3e0a9 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1076} true
+11-24 13:36:13.856  9185  9285 E WindowManager: setClientVisible ActivityRecord{5f3e0a9 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1076} true
+11-24 13:36:13.891  9185 14975 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} false
+11-24 13:37:58.086  9185  9440 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:37:58.256  9185  9285 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} true
+11-24 13:37:58.288  9185  9439 E WindowManager: setClientVisible ActivityRecord{5f3e0a9 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1076 f}} false
+11-24 13:38:22.740  9185  9284 E WindowManager: setClientVisible ActivityRecord{e9713c1 u0 app.gyrolet.mpvrx/.IconBlackSolid t1076} false
+11-24 13:43:52.090  9185 13223 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid true
+11-24 13:43:52.110  9185 13223 I wm_create_activity: [0,2688651,1077,app.gyrolet.mpvrx/.IconBlackSolid,android.intent.action.MAIN,NULL,NULL,270532608]
+11-24 13:43:52.117  9185 13223 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:43:52.147  9185  9308 I am_proc_start: [0,6961,10378,app.gyrolet.mpvrx,top-activity,{app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid}]
+11-24 13:43:52.150  9185  9285 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:43:52.217  9185  9440 I am_proc_bound: [0,6961,app.gyrolet.mpvrx]
+11-24 13:43:52.340  9185  9440 I wm_restart_activity: [0,2688651,1077,app.gyrolet.mpvrx/.IconBlackSolid]
+11-24 13:43:52.342  9185  9440 I input_focus: displayId :0, focusApplication has changed to ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077}
+11-24 13:43:52.342  9185  9440 I wm_set_resumed_activity: [0,app.gyrolet.mpvrx/.IconBlackSolid,realStartActivityLocked - onActivityStateChanged]
+11-24 13:43:52.393  6961  6961 I wm_on_create_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,performCreate,23]
+11-24 13:43:52.399  6961  6961 I wm_on_start_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,handleStartActivity,5]
+11-24 13:43:52.409  6961  6961 I wm_on_resume_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,RESUME_ACTIVITY,8]
+11-24 13:43:52.448  6961  6961 I wm_on_top_resumed_gained_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topStateChangedWhenResumed]
+11-24 13:43:52.710  9185  9285 I input_focus: [Focus request 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:43:52.717  8951 13578 I input_focus: sf.setTransactionState transactionId:39449275178574 focusRequests:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:43:52.732  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:43:52.735  9185 13223 I input_focus: [Focus receive :60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:43:52.735  9185 13223 I input_focus: [At display 0,ignore set focus to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NOT_VISIBLE,from setFocusedWindow.]
+11-24 13:43:52.851  9185  9271 I sysui_multi_action: [319,77,321,134,322,767,325,513597,757,761,758,7,759,1,806,app.gyrolet.mpvrx,871,app.gyrolet.mpvrx.IconBlackSolid,904,com.miui.home,905,0,945,158,1320,9,1321,4]
+11-24 13:43:52.853  9185  9271 I wm_activity_launch_time: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid,767]
+11-24 13:43:52.866  9185  9819 I input_focus: [At display 0,focus update to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setInputWindows.]
+11-24 13:43:52.866  9185  9481 I input_focus: [Focus entering 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-24 13:43:52.872 21207 21281 I input_focus: DIE in:Splash Screen app.gyrolet.mpvrx view:android.widget.FrameLayout{b7ad1ea G.E...... ......ID 0,0-1080,2400} of Surface(name=null mNativeObject=0)/@0x574c7f3android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7729 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7619 android.os.Handler.dispatchMessage:107 
+11-24 13:43:52.873 21207 21281 I input_focus: dispatchDetachedFromWindow:Splash Screen app.gyrolet.mpvrx view:android.widget.FrameLayout{b7ad1ea G.E...... ......ID 0,0-1080,2400} calllers:android.view.ViewRootImpl.doDie:11019 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7729 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7619 android.os.Handler.dispatchMessage:107 android.os.Looper.loopOnce:249 
+11-24 13:43:52.875  9185  9271 I sysui_multi_action: [324,0,757,1090,758,12,806,app.gyrolet.mpvrx,871,app.gyrolet.mpvrx.IconBlackSolid,1091,796]
+11-24 13:43:52.884 21207 21281 I input_focus: doDie:Splash Screen app.gyrolet.mpvrx
+11-24 13:43:52.906  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R......D 0,0-1080,2400}[IconBlackSolid]
+11-24 13:43:52.960  6961  6961 I wm_on_idle_called: app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:43:54.494  6961  6961 I wm_on_top_resumed_lost_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topStateChangedWhenResumed]
+11-24 13:43:54.553  9185  9481 I input_focus: [Focus leaving 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=setFocusedWindow]
+11-24 13:43:54.555  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R....... 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:43:55.227  9185  9755 I wm_add_to_stopping: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid,makeInvisible]
+11-24 13:43:55.228  9185  9755 I wm_pause_activity: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid,userLeaving=true,finishTransition]
+11-24 13:43:55.232  9185  9755 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} false
+11-24 13:43:55.229  6961  6961 I auditd  : type=1400 audit(0.0:703821): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:43:55.315  6961  6961 I wm_on_paused_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,performPause,83]
+11-24 13:43:55.346  9185  9284 I wm_stop_activity: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid]
+11-24 13:43:55.392  6961  6961 I wm_on_stop_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,STOP_ACTIVITY_ITEM,8]
+11-24 13:44:02.017  9185 14999 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:44:02.017  9185 14999 I input_focus: displayId :0, focusApplication has changed to ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077}
+11-24 13:44:02.018  9185 14999 I wm_set_resumed_activity: [0,app.gyrolet.mpvrx/.IconBlackSolid,resumeTopActivity - onActivityStateChanged]
+11-24 13:44:02.019  9185 14999 I wm_resume_activity: [0,2688651,1077,app.gyrolet.mpvrx/.IconBlackSolid]
+11-24 13:44:02.042  6961  6961 I wm_on_restart_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,,0]
+11-24 13:44:02.056  9185  9395 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:44:02.079  6961  6961 I wm_on_start_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,handleStartActivity,36]
+11-24 13:44:02.100  6961  6961 I wm_on_resume_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,RESUME_ACTIVITY,20]
+11-24 13:44:02.115  9185  9285 I input_focus: [Focus request 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:44:02.123  8951  9016 I input_focus: sf.setTransactionState transactionId:39449275178757 focusRequests:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:02.154  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:02.154  9185  9819 I input_focus: [Focus receive :60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:44:02.154  9185  9819 I input_focus: [At display 0,ignore set focus to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NO_WINDOW,from setFocusedWindow.]
+11-24 13:44:02.155  9185 13223 I input_focus: [At display 0,ignore set focus to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NOT_VISIBLE,from setInputWindows.]
+11-24 13:44:02.204  6961  6961 I wm_on_top_resumed_gained_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topStateChangedWhenResumed]
+11-24 13:44:02.215  9185  9271 I sysui_multi_action: [319,50,321,66,322,196,325,513607,757,761,758,9,759,2,806,app.gyrolet.mpvrx,871,app.gyrolet.mpvrx.IconBlackSolid,904,com.miui.home,905,0,1320,9,1321,4]
+11-24 13:44:02.219  6961  6961 I wm_on_idle_called: app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:02.240  9185  9819 I input_focus: [At display 0,focus update to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setInputWindows.]
+11-24 13:44:02.241  9185  9481 I input_focus: [Focus entering 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-24 13:44:02.246  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R....... 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:44:03.339  9185  9481 I input_interaction: Interaction with: 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:44:04.278  9185  9308 I am_proc_start: [0,7183,99180,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0,,{app.gyrolet.mpvrx/org.chromium.content.app.SandboxedProcessService0:0}]
+11-24 13:44:04.373  6961  7234 I jank_cuj_events_begin_request: [81,1795502644373344000,759764820916049,513609861415895,1@1@app.gyrolet.mpvrx]
+11-24 13:44:05.716  9185  9481 I input_interaction: Interaction with: 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:44:05.753  6961  6961 I auditd  : type=1400 audit(0.0:703835): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:44:05.780  9185  9481 I input_focus: [Focus leaving 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Waiting for window because NOT_VISIBLE]
+11-24 13:44:05.785  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R....... 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:44:07.262  9185  9285 I input_focus: [Focus request 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:44:07.263  8951  9337 I input_focus: sf.setTransactionState transactionId:39449275178834 focusRequests:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:07.274  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:07.274  9185  9755 I input_focus: [Focus receive :60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:44:07.275  9185  9755 I input_focus: [At display 0,focus update to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setFocusedWindow.]
+11-24 13:44:07.275  9185  9481 I input_focus: [Focus entering 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=setFocusedWindow]
+11-24 13:44:07.279  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R.....ID 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:44:08.604  9185  9481 I input_interaction: Interaction with: 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:44:08.685  6961  7234 I jank_cuj_events_begin_request: [81,1795502648685509000,759769133081516,513614173581414,1@1@app.gyrolet.mpvrx]
+11-24 13:44:17.372  9185  9285 I input_focus: [Focus request b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:44:17.369  6961  6961 I auditd  : type=1400 audit(0.0:703836): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:44:17.377  8951  9016 I input_focus: sf.setTransactionState transactionId:39449275178845 focusRequests:b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:17.394  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:17.394  9185  9756 I input_focus: [Focus receive :b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:44:17.394  9185  9756 I input_focus: [At display 0,ignore set focus to b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NO_WINDOW,from setFocusedWindow.]
+11-24 13:44:17.394  9185 13223 I input_focus: [At display 0,ignore set focus to b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NOT_VISIBLE,from setInputWindows.]
+11-24 13:44:17.395  9185  9481 I input_focus: [Focus leaving 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Waiting for window because NO_WINDOW]
+11-24 13:44:17.416  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R......D 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:44:17.416  9185  9820 I input_focus: [At display 0,focus update to b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setInputWindows.]
+11-24 13:44:17.417  9185  9481 I input_focus: [Focus entering b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-24 13:44:17.466  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{497eb4a V.E...... R....... 0,0-1080,2400}[IconBlackSolid]
+11-24 13:44:18.156  9185  9481 I input_interaction: Interaction with: b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:44:18.241  9185  9756 E WindowManager: setClientVisible ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity true
+11-24 13:44:18.249  9185  9756 I wm_create_activity: [0,153177640,1077,app.gyrolet.mpvrx/.ui.player.PlayerActivity,android.intent.action.VIEW,NULL,https://s1.vipah06.xyz/...,805437441]
+11-24 13:44:18.251  9185  9756 I wm_pause_activity: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid,userLeaving=true,resumeTopActivity]
+11-24 13:44:18.256  6961  6961 I input_focus: DIE in:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid view:com.android.internal.policy.DecorView{497eb4a V.E...... R......D 0,0-1080,2400 aid=1073741829}[IconBlackSolid] of Surface(name=null mNativeObject=-5476376615337220304)/@0x3b07837android.view.ViewRootImpl.die:10973 android.view.WindowManagerGlobal.removeViewLocked:662 android.view.WindowManagerGlobal.removeView:603 
+11-24 13:44:18.257  6961  6961 I input_focus: dispatchDetachedFromWindow:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid view:com.android.internal.policy.DecorView{497eb4a V.E...... R......D 0,0-1080,2400 aid=1073741829}[IconBlackSolid] calllers:android.view.ViewRootImpl.doDie:11019 android.view.ViewRootImpl.die:10973 android.view.WindowManagerGlobal.removeViewLocked:662 android.view.WindowManagerGlobal.removeView:603 android.view.WindowManagerImpl.removeViewImmediate:283 
+11-24 13:44:18.267  6961  6961 I input_focus: doDie:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:18.268  6961  6961 I wm_on_top_resumed_lost_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topStateChangedWhenResumed]
+11-24 13:44:18.269  9185  9285 I input_focus: [Focus request 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:44:18.275  8951  9019 I input_focus: sf.setTransactionState transactionId:39449275178859 focusRequests:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:18.273  6961  6961 I auditd  : type=1400 audit(0.0:703837): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:44:18.276  9185 13223 I input_focus: [At display 0,ignore set focus to b833e99 app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NO_WINDOW,from setInputWindows.]
+11-24 13:44:18.285  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:44:18.285  9185  9819 I input_focus: [Focus receive :60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:44:18.285  9185  9819 I input_focus: [At display 0,focus update to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setFocusedWindow.]
+11-24 13:44:18.287  9185  9481 I input_focus: [Focus entering 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=setFocusedWindow]
+11-24 13:44:18.298  6961  6961 I wm_on_paused_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,performPause,22]
+11-24 13:44:18.301  9185 13223 E WindowManager: setClientVisible ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1077} true
+11-24 13:44:18.301  9185 13223 I wm_add_to_stopping: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid,makeInvisible]
+11-24 13:44:18.302  9185 13223 E WindowManager: setClientVisible ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1077} true
+11-24 13:44:18.302  9185 13223 I wm_restart_activity: [0,153177640,1077,app.gyrolet.mpvrx/.ui.player.PlayerActivity]
+11-24 13:44:18.303  9185 13223 I input_focus: displayId :0, focusApplication has changed to ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1077}
+11-24 13:44:18.303  9185 13223 I wm_set_resumed_activity: [0,app.gyrolet.mpvrx/.ui.player.PlayerActivity,realStartActivityLocked - onActivityStateChanged]
+11-24 13:44:18.325  9185  9481 I input_focus: [Focus leaving 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Waiting for window because NO_WINDOW]
+11-24 13:44:18.345  9185  9303 I am_pss  : [6961,10378,app.gyrolet.mpvrx,345626624,305565696,631808,533385216,0,2,34]
+11-24 13:44:18.355  6961  6961 I wm_on_create_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,performCreate,33]
+11-24 13:44:18.356  6961  6961 I wm_on_start_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,handleStartActivity,0]
+11-24 13:44:18.360  6961  6961 I wm_on_resume_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,RESUME_ACTIVITY,3]
+11-24 13:44:18.369  6961  6961 I wm_on_top_resumed_gained_called: [153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,topStateChangedWhenResumed]
+11-24 13:44:18.369  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R.....ID 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:44:18.394  9185  9285 I input_focus: [Focus request 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity,reason=UpdateInputWindows]
+11-24 13:44:18.393  6961  6961 I auditd  : type=1400 audit(0.0:703838): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:44:18.397  6961  6961 I auditd  : type=1400 audit(0.0:703839): avc:  denied  { read } for  comm="p.gyrolet.mpvrx" name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=457 scontext=u:r:untrusted_app:s0:c122,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+11-24 13:44:18.404  8951  9019 I input_focus: sf.setTransactionState transactionId:39449275178866 focusRequests:6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity
+11-24 13:44:18.417  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity
+11-24 13:44:18.418  9185  9819 I input_focus: [Focus receive :6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity,reason=setFocusedWindow]
+11-24 13:44:18.418  9185  9819 I input_focus: [At display 0,ignore set focus to 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity,because NOT_VISIBLE,from setFocusedWindow.]
+11-24 13:44:18.426  9185  9285 E WindowManager: setClientVisible ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1077} true
+11-24 13:44:18.433  9185  9271 I wm_activity_launch_time: [0,153177640,app.gyrolet.mpvrx/.ui.player.PlayerActivity,185]
+11-24 13:44:18.458  9185  9755 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} false
+11-24 13:44:18.464  9185  9284 I wm_stop_activity: [0,2688651,app.gyrolet.mpvrx/.IconBlackSolid]
+11-24 13:44:18.467  9185  9756 I input_focus: [At display 0,focus update to 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity,from setInputWindows.]
+11-24 13:44:18.467  9185  9481 I input_focus: [Focus entering 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-24 13:44:18.495  6961  6961 I wm_on_stop_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,STOP_ACTIVITY_ITEM,2]
+11-24 13:44:18.498  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity mView:com.android.internal.policy.DecorView{94d9732 V.E...... R....... 0,0-1080,2400}[PlayerActivity]
+11-24 13:44:18.501  6961  6961 I wm_on_idle_called: app.gyrolet.mpvrx.ui.player.PlayerActivity
+11-24 13:44:18.923  6961  7234 I jank_cuj_events_begin_request: [81,1795502658922902000,759779370474377,513624410974431,1@1@app.gyrolet.mpvrx]
+11-24 13:44:20.174  9185  9756 I wm_set_requested_orientation: [6,app.gyrolet.mpvrx/.ui.player.PlayerActivity]
+11-24 13:44:20.175  9185  9756 I wm_requested_orientation: [6,app.gyrolet.mpvrx]
+11-24 13:45:09.541  9185  9481 I input_interaction: Interaction with: 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:45:10.734  9185  9395 I wm_finish_activity: [0,153177640,1077,app.gyrolet.mpvrx/.ui.player.PlayerActivity,app-request]
+11-24 13:45:10.736  9185  9395 I wm_pause_activity: [0,153177640,app.gyrolet.mpvrx/.ui.player.PlayerActivity,userLeaving=false,finish]
+11-24 13:45:10.747  6961  6961 I wm_on_top_resumed_lost_called: [153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,topStateChangedWhenResumed]
+11-24 13:45:10.755  6961  6961 I wm_on_paused_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,performPause,1]
+11-24 13:45:10.761  9185 14999 I input_focus: [At display 0,ignore set focus to 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity,because NO_WINDOW,from setInputWindows.]
+11-24 13:45:10.762  9185  9481 I input_focus: [Focus leaving 6716b04 app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity (server),reason=NO_WINDOW]
+11-24 13:45:10.764  9185 14726 I wm_add_to_stopping: [0,153177640,app.gyrolet.mpvrx/.ui.player.PlayerActivity,completeFinishing]
+11-24 13:45:10.769  9185 14726 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:45:10.770  9185 14726 I input_focus: displayId :0, focusApplication has changed to ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077}
+11-24 13:45:10.771  9185 14726 I wm_set_resumed_activity: [0,app.gyrolet.mpvrx/.IconBlackSolid,resumeTopActivity - onActivityStateChanged]
+11-24 13:45:10.783  9185 14726 I wm_resume_activity: [0,2688651,1077,app.gyrolet.mpvrx/.IconBlackSolid]
+11-24 13:45:10.804  6961  7234 I jank_cuj_events_begin_request: [80,1795502710804421000,759831251993107,513676292493057,0@1@app.gyrolet.mpvrx]
+11-24 13:45:10.809  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity mView:com.android.internal.policy.DecorView{94d9732 V.E...... R......D 0,0-2400,1080 aid=1}[PlayerActivity]
+11-24 13:45:10.824  6961  6961 I wm_on_restart_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,,0]
+11-24 13:45:10.827  6961  6961 I wm_on_start_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,handleStartActivity,3]
+11-24 13:45:10.841  6961  6961 I wm_on_resume_called: [0,2688651,app.gyrolet.mpvrx.IconBlackSolid,RESUME_ACTIVITY,14]
+11-24 13:45:10.842  6961  6961 I wm_on_top_resumed_gained_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topWhenResuming]
+11-24 13:45:10.863  9185  9285 I input_focus: [Focus request 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=UpdateInputWindows]
+11-24 13:45:10.863  9185  9303 I am_pss  : [6961,10378,app.gyrolet.mpvrx,692209664,647266304,616448,892317696,0,2,64]
+11-24 13:45:10.865  8951  9019 I input_focus: sf.setTransactionState transactionId:39449275179048 focusRequests:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:45:10.880  8951  9175 I input_focus: sf.updateInputFlinger focusRequest:60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:45:10.881  9185  9820 I input_focus: [Focus receive :60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,reason=setFocusedWindow]
+11-24 13:45:10.881  9185  9820 I input_focus: [At display 0,ignore set focus to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,because NOT_VISIBLE,from setFocusedWindow.]
+11-24 13:45:10.928  9185  9285 E WindowManager: setClientVisible ActivityRecord{29068b u0 app.gyrolet.mpvrx/.IconBlackSolid t1077} true
+11-24 13:45:10.955  9185 14726 I input_focus: [At display 0,focus update to 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid,from setInputWindows.]
+11-24 13:45:10.955  9185  9481 I input_focus: [Focus entering 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-24 13:45:10.976  9185 14975 E WindowManager: setClientVisible ActivityRecord{9214e28 u0 app.gyrolet.mpvrx/.ui.player.PlayerActivity t1077 f}} false
+11-24 13:45:11.003  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R....... 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:45:11.342  6961  6961 I wm_on_idle_called: app.gyrolet.mpvrx.IconBlackSolid
+11-24 13:45:11.451  9185  9284 I wm_destroy_activity: [0,153177640,1077,app.gyrolet.mpvrx/.ui.player.PlayerActivity,finish-imm:idle]
+11-24 13:45:11.552  6961  6961 I wm_on_stop_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,LIFECYCLER_STOP_ACTIVITY,7]
+11-24 13:45:11.579  6961  6961 I wm_on_destroy_called: [0,153177640,app.gyrolet.mpvrx.ui.player.PlayerActivity,performDestroy,12]
+11-24 13:45:11.579  6961  6961 I input_focus: DIE in:app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity view:com.android.internal.policy.DecorView{94d9732 I.E...... R.....ID 0,0-2400,1080 aid=1}[PlayerActivity] of Surface(name=null mNativeObject=0)/@0xa539e27android.view.ViewRootImpl.die:10973 android.view.WindowManagerGlobal.removeViewLocked:662 android.view.WindowManagerGlobal.removeView:603 
+11-24 13:45:11.580  6961  6961 I input_focus: dispatchDetachedFromWindow:app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity view:com.android.internal.policy.DecorView{94d9732 I.E...... R.....ID 0,0-2400,1080 aid=1}[PlayerActivity] calllers:android.view.ViewRootImpl.doDie:11019 android.view.ViewRootImpl.die:10973 android.view.WindowManagerGlobal.removeViewLocked:662 android.view.WindowManagerGlobal.removeView:603 android.view.WindowManagerImpl.removeViewImmediate:283 
+11-24 13:45:11.589  6961  6961 I input_focus: doDie:app.gyrolet.mpvrx/app.gyrolet.mpvrx.ui.player.PlayerActivity
+11-24 13:45:12.809  9185  9481 I input_interaction: Interaction with: 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server), {touchableRegion=[0,0][1080,2400], inputConfig=0x0}, PointerEventDispatcher0 (server), 
+11-24 13:45:15.860  6961  6961 I wm_on_top_resumed_lost_called: [2688651,app.gyrolet.mpvrx.IconBlackSolid,topStateChangedWhenResumed]
+11-24 13:45:16.117  9185  9481 I input_focus: [Focus leaving 60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid (server),reason=Waiting for window because NO_WINDOW]
+11-24 13:45:16.121  6961  6961 I input_focus: handleWindowFocusChanged:app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid mView:com.android.internal.policy.DecorView{29e6e93 V.E...... R....... 0,0-1080,2400 aid=0}[IconBlackSolid]
+11-24 13:45:16.532  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515572, oldVsyncId=74515572, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:16.583  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=16, avg=7 ms, max=31 ms.
+11-24 13:45:16.598  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515752, oldVsyncId=74515694, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.598  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515752, oldVsyncId=74515752, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.624  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515830, oldVsyncId=74515830, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.656  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515894, oldVsyncId=74515830, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.681  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74515993, oldVsyncId=74515894, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.715  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516134, oldVsyncId=74516134, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.773  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516367, oldVsyncId=74516240, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.798  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516424, oldVsyncId=74516367, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.832  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516516, oldVsyncId=74516424, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.890  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516665, oldVsyncId=74516587, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.890  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516665, oldVsyncId=74516665, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.916  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516722, oldVsyncId=74516722, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:16.916  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516722, oldVsyncId=74516722, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.949  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516793, oldVsyncId=74516793, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:16.982  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516843, oldVsyncId=74516793, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:16.982  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516843, oldVsyncId=74516843, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:16.999  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74516957, oldVsyncId=74516843, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.033  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517042, oldVsyncId=74517042, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.066  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517064, oldVsyncId=74517042, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.091  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517128, oldVsyncId=74517064, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.128 19847 19847 D DockWindowManager: app.gyrolet.mpvrx is in not whitelist, start region sampling
+11-24 13:45:17.158  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517249, oldVsyncId=74517249, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:17.174  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517285, oldVsyncId=74517249, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.191  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517356, oldVsyncId=74517285, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.224  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517378, oldVsyncId=74517356, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.225  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517378, oldVsyncId=74517378, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:17.225  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517378, oldVsyncId=74517378, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:17.225  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517378, oldVsyncId=74517378, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:17.258  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517393, oldVsyncId=74517378, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.274  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517451, oldVsyncId=74517393, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.308  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517522, oldVsyncId=74517451, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.324  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517552, oldVsyncId=74517522, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.374  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517624, oldVsyncId=74517595, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.374  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517624, oldVsyncId=74517624, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.392  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517646, oldVsyncId=74517624, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.416  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517675, oldVsyncId=74517646, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.441  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517690, oldVsyncId=74517675, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.467  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517719, oldVsyncId=74517719, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.491  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517748, oldVsyncId=74517719, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.575  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517920, oldVsyncId=74517884, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.592  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74517949, oldVsyncId=74517920, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.642  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518028, oldVsyncId=74517992, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.659  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=27, avg=17 ms, max=41 ms.
+11-24 13:45:17.675  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518150, oldVsyncId=74518150, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.692  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518172, oldVsyncId=74518150, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.762  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518273, oldVsyncId=74518273, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.801  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518403, oldVsyncId=74518352, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.842  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518476, oldVsyncId=74518432, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.868  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=1, avg=13 ms, max=13 ms.
+11-24 13:45:17.876  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518570, oldVsyncId=74518498, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.918  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518621, oldVsyncId=74518621, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:17.976  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518737, oldVsyncId=74518729, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.009  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518859, oldVsyncId=74518801, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.051  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74518917, oldVsyncId=74518881, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.085  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519018, oldVsyncId=74519018, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.126  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519069, oldVsyncId=74519069, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.171  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519192, oldVsyncId=74519170, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.263  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519384, oldVsyncId=74519384, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.280  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519399, oldVsyncId=74519399, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.327  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519444, oldVsyncId=74519429, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.377  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519540, oldVsyncId=74519525, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.410  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519620, oldVsyncId=74519620, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.451  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=1, avg=12 ms, max=12 ms.
+11-24 13:45:18.461  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519700, oldVsyncId=74519700, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.478  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519736, oldVsyncId=74519700, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.527  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519808, oldVsyncId=74519772, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.545  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519851, oldVsyncId=74519851, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:18.570  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519887, oldVsyncId=74519851, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.581  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74519959, oldVsyncId=74519959, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:18.603  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520009, oldVsyncId=74519959, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.603  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520009, oldVsyncId=74520009, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:18.603  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520009, oldVsyncId=74520009, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:18.619  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520038, oldVsyncId=74520009, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.653  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520088, oldVsyncId=74520038, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.669  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520131, oldVsyncId=74520088, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.695  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520167, oldVsyncId=74520131, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.719  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520197, oldVsyncId=74520167, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.745  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520233, oldVsyncId=74520197, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.778  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520262, oldVsyncId=74520233, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.803  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520298, oldVsyncId=74520262, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.853  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520398, oldVsyncId=74520355, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.920  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520499, oldVsyncId=74520484, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:18.960  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=11, avg=10 ms, max=22 ms.
+11-24 13:45:18.961  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520585, oldVsyncId=74520556, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.003  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520657, oldVsyncId=74520614, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.053  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520750, oldVsyncId=74520700, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.179  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520932, oldVsyncId=74520903, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.220  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74520990, oldVsyncId=74520961, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.263  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521062, oldVsyncId=74521062, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.313  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521141, oldVsyncId=74521091, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.371  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521249, oldVsyncId=74521227, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.421  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521321, oldVsyncId=74521292, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.463  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521407, oldVsyncId=74521350, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.480  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521450, oldVsyncId=74521407, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.538  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521508, oldVsyncId=74521508, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.589  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521615, oldVsyncId=74521551, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.640  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521702, oldVsyncId=74521702, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.664  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=1, avg=16 ms, max=16 ms.
+11-24 13:45:19.689  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521824, oldVsyncId=74521731, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.689  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521824, oldVsyncId=74521824, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.705  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521832, oldVsyncId=74521832, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.730  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521868, oldVsyncId=74521832, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.788  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521926, oldVsyncId=74521883, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.805  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74521983, oldVsyncId=74521926, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.855  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522048, oldVsyncId=74522026, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.914  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522149, oldVsyncId=74522127, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:19.981  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522236, oldVsyncId=74522221, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.019  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=4, avg=15 ms, max=31 ms.
+11-24 13:45:20.022  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522322, oldVsyncId=74522293, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.073  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522401, oldVsyncId=74522351, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.073  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522401, oldVsyncId=74522401, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.098  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522444, oldVsyncId=74522444, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.114  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522502, oldVsyncId=74522444, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.181  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522596, oldVsyncId=74522560, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.198  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522639, oldVsyncId=74522596, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.257  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522697, oldVsyncId=74522668, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.274  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522754, oldVsyncId=74522697, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.307  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522790, oldVsyncId=74522790, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.390  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74522963, oldVsyncId=74522920, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.424  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523043, oldVsyncId=74523043, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.441  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523065, oldVsyncId=74523043, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.466  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523101, oldVsyncId=74523065, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.524  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523187, oldVsyncId=74523187, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.549  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523252, oldVsyncId=74523252, layerName=60dd9ef app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97328
+11-24 13:45:20.574  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523281, oldVsyncId=74523252, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.624  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523381, oldVsyncId=74523338, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.648  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=11, avg=8 ms, max=29 ms.
+11-24 13:45:20.665  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523460, oldVsyncId=74523410, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.666  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523460, oldVsyncId=74523460, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.683  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523489, oldVsyncId=74523489, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.708  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523532, oldVsyncId=74523489, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.782  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523633, oldVsyncId=74523597, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.824  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523705, oldVsyncId=74523676, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.841  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523734, oldVsyncId=74523705, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.866  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523777, oldVsyncId=74523734, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.924  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523849, oldVsyncId=74523806, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:20.966  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74523942, oldVsyncId=74523906, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.050  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524093, oldVsyncId=74524036, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.067  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524122, oldVsyncId=74524093, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.071  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=6, avg=12 ms, max=29 ms.
+11-24 13:45:21.117  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524180, oldVsyncId=74524151, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.167  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524259, oldVsyncId=74524223, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.184  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524288, oldVsyncId=74524259, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.209  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524338, oldVsyncId=74524288, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.267  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524431, oldVsyncId=74524367, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.267  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524431, oldVsyncId=74524431, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.285  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524474, oldVsyncId=74524474, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.317  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524531, oldVsyncId=74524474, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.342  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524574, oldVsyncId=74524531, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.367  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524624, oldVsyncId=74524574, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.426  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524710, oldVsyncId=74524667, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.442  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524753, oldVsyncId=74524710, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.468  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524803, oldVsyncId=74524753, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.526  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524882, oldVsyncId=74524832, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.576  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524954, oldVsyncId=74524925, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.604  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74524998, oldVsyncId=74524954, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.648  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=10, avg=11 ms, max=29 ms.
+11-24 13:45:21.654  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525028, oldVsyncId=74524998, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.663  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525064, oldVsyncId=74525028, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.704  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525074, oldVsyncId=74525064, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.771  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525104, oldVsyncId=74525074, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.818  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525184, oldVsyncId=74525169, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.846  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525207, oldVsyncId=74525184, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:21.985  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525298, oldVsyncId=74525275, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.002  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525306, oldVsyncId=74525298, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.064  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525350, oldVsyncId=74525321, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.105  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525418, oldVsyncId=74525350, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.172  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525493, oldVsyncId=74525478, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.202  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=1, avg=8 ms, max=8 ms.
+11-24 13:45:22.219  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525560, oldVsyncId=74525523, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.244  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525582, oldVsyncId=74525560, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.311  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525655, oldVsyncId=74525647, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.378  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525735, oldVsyncId=74525720, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.420  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525800, oldVsyncId=74525785, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.450  6961  6994 W RenderInspector: QueueBuffer time out on app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid, count=1, avg=9 ms, max=9 ms.
+11-24 13:45:22.470  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525844, oldVsyncId=74525822, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.520  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525902, oldVsyncId=74525866, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.573  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525961, oldVsyncId=74525902, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.615  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74525997, oldVsyncId=74525961, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.648  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74526033, oldVsyncId=74525997, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.665  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74526062, oldVsyncId=74526033, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.699  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74526085, oldVsyncId=74526062, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+11-24 13:45:22.774  8951  8951 E MI-SF   : MiSurfaceFlingerImpl.cpp.vsyncId=74526137, oldVsyncId=74526121, layerName=app.gyrolet.mpvrx/app.gyrolet.mpvrx.IconBlackSolid#97421
+
